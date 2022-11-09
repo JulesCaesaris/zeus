@@ -7,5 +7,12 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.validate": ["typescript", "typescriptreact"]
+  "eslint.validate": ["typescript", "typescriptreact"],
+  "cSpell.words": [
+    "appspot",
+    "firebaseapp",
+    "firestore",
+    "kebabcase",
+    "mantine"
+  ]
 }
