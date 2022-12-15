@@ -8,13 +8,14 @@
     "source.fixAll.eslint": true
   },
   "eslint.validate": ["typescript", "typescriptreact"],
-  "cSpell.words": [
+  "cSpell.ignoreWords": [
+    "autofix",
+    "wesbos",
     "appspot",
     "firebaseapp",
     "firestore",
     "kebabcase",
     "mantine",
     "Signup"
-  ],
-  "cSpell.ignoreWords": ["wesbos"]
+  ]
 }
