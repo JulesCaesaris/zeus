@@ -13,6 +13,8 @@
     "firebaseapp",
     "firestore",
     "kebabcase",
-    "mantine"
-  ]
+    "mantine",
+    "Signup"
+  ],
+  "cSpell.ignoreWords": ["wesbos"]
 }

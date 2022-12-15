@@ -18,11 +18,9 @@
     "@mantine/next": "^5.7.1",
     "@mantine/notifications": "^5.7.1",
     "@mantine/rte": "^5.7.1",
-    "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
     "dayjs": "^1.11.6",
-    "eslint": "8.27.0",
     "eslint-config-next": "13.0.2",
     "firebase": "^8.2.1",
     "lodash.debounce": "^4.0.8",
@@ -33,7 +31,27 @@
     "react-firebase-hooks": "^2.2.0",
     "react-hook-form": "^6.14.2",
     "react-hot-toast": "^1.0.2",
-    "react-markdown": "^5.0.3",
-    "typescript": "4.8.4"
+    "react-markdown": "^5.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
+    "@types/node": "^18.11.15",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-wesbos": "^3.1.4",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
   }
 }
