@@ -1,6 +1,8 @@
-import { AppProps } from 'next/app';
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import Head from 'next/head';
+import { AppProps } from 'next/app';
 import { MantineProvider } from '@mantine/core';
+import { NotificationsProvider } from '@mantine/notifications';
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
@@ -9,7 +11,10 @@ export default function App(props: AppProps) {
     <>
       <Head>
         <title>Page title</title>
-        <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+        <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+        />
       </Head>
 
       <MantineProvider
@@ -20,7 +25,9 @@ export default function App(props: AppProps) {
           colorScheme: 'light',
         }}
       >
-        <Component {...pageProps} />
+        <NotificationsProvider>
+          <Component {...pageProps} />
+        </NotificationsProvider>
       </MantineProvider>
     </>
   );

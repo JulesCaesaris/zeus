@@ -8,14 +8,18 @@
     "source.fixAll.eslint": true
   },
   "eslint.validate": ["typescript", "typescriptreact"],
+  "prettier.singleQuote": true,
   "cSpell.ignoreWords": [
-    "autofix",
-    "wesbos",
+    "Signup",
     "appspot",
+    "autofix",
     "firebaseapp",
     "firestore",
     "kebabcase",
     "mantine",
-    "Signup"
-  ]
+    "paren",
+    "parens",
+    "wesbos"
+  ],
+  "prettier.jsxSingleQuote": true
 }
